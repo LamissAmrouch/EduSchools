@@ -1,0 +1,338 @@
+h1{
+/*font-weight: bold ; 
+font-style:  italic ;*/
+font-family: 'Dancing Script';
+font-size: 60px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+}
+
+#footer
+{
+background-color: #6091ba;
+width: 100%;
+font-size: 20px;
+text-align-last: center;
+padding: 15px;
+}
+
+video {
+
+	margin:  20px auto; 
+}
+.contact
+{
+font-size: 30px;
+color: black;
+}
+
+button
+{
+font-family: 'Dancing Script';
+margin: auto;
+font-size: 20px;
+width: 25%;
+height: 15%;
+}
+
+h2{
+font-family: 'Dancing Script';
+font-size: 40px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+} 
+
+h3
+{
+font-family: 'Dancing Script';
+font-size: 30px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+
+body{
+font-family:'Dancing Script';
+}
+
+
+table {
+ border-collapse:collapse;
+ width:90%;
+ margin: auto;
+ }
+ 
+th {
+ border:1px solid black;
+ width:10%;
+ font-size: 20px;
+ }
+
+td {
+border:1px solid black;
+width:10%;
+text-align:center;
+ }
+
+caption {
+ font-weight:bold;
+ color: #2f506c;
+ } 
+ 
+select 
+{
+	font-family: 'Dancing Script';
+}
+
+.lien 
+{
+font-weight: bold ;
+text-decoration: none;
+color : white ;
+
+} 
+
+li.logo
+{
+	display : inline;
+	color: #6091ba;
+	font-size: 30px;
+	font-weight: bold ;
+}
+
+li.menu{
+float:left;
+display: inline;
+font-size: 30px;
+text-decoration: none;
+padding: 15px ;
+
+}
+
+li.deconnexion{
+float:right;
+display: inline;
+font-size: 30px;
+text-decoration: none;
+padding: 15px ;
+}
+
+li.libare
+{
+display: inline;
+
+}
+
+li.libare img:Hover
+{
+opacity:0.8;
+}
+
+#div
+{
+	margin: auto;
+	width: 100%;
+}
+
+ul.divmenu 
+{
+font-family: 'Dancing Script';
+margin: 0px;
+padding: 0px;
+position: fixed;
+list-style-type: none ;
+background-color: #6091ba;
+width: 100%;
+z-index: 4;
+}
+
+ul.sous_menu 
+{
+font-family: 'Dancing Script';
+margin: 0px;
+padding: 0px;
+position: fixed;
+list-style-type: none ;
+background-color: #2f506c;
+z-index: 4;
+}
+
+ 
+li:Hover ul.sous_menu 
+{
+
+visibility: visible; 
+text-decoration: none;
+padding: 10px;
+}
+
+.sous_menu
+{
+	visibility: hidden;
+	list-style-type: none;
+	font-size: 25px;
+	color: white;
+}
+
+a {
+ text-decoration:none;
+color: black;
+}
+
+
+input {
+
+font-family: 'Dancing Script';
+
+}
+
+ 
+thead tr th 
+{
+font-weight: bold ; 
+font-style: italic ;
+color: #2f506c;
+}
+
+
+div#global{
+	margin : 0 auto;
+	margin-left: 10%;
+	width: 100%;
+	display : inline-block;
+
+}
+
+div#novform
+{
+
+/*float: right;*/
+display : inline-block;
+width: 35%;
+background-color: #6091ba;
+
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+vertical-align: top;
+}
+
+div#novtype
+{
+float:left ;
+display: inline-block;
+background-color: #6091ba;
+width: 35%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+vertical-align: top;
+}
+
+#div_modifier
+{
+background-color: #6091ba;
+width: 35%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+display: none;
+margin: auto;
+width: 30%;
+}
+
+.div_connexion
+{
+
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+margin: auto;
+width: 30%;
+}
+
+.div_inscription
+{
+margin-top: 30px; 
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+margin: auto;
+width: 35%;
+
+ }
+
+label{
+
+	display: block;
+	width: 100px;
+	float: left;
+} 
+
+.footer
+{
+
+background-color: #6091ba;
+width: 100%;
+height: 10%;
+font-size: 30px;
+text-align-last: center;
+padding: 15px;
+
+}
+
+
+.slider{
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider figure img {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+}
+.slider figure{
+  position: absolute;
+  width: 400%;
+  height: 100%;
+  display: block;
+  left:0; top:0;
+  animation: slide 15s infinite;
+}
+
+@keyframes slide{
+  0%{
+      left:  0;
+  }
+  25%{
+      left: -100%;
+  }
+  50%{
+      left: -200%;
+  }
+  75%{
+      left: -300%;
+  }
+  100%{
+      left: 0;
+  }
+}
+
+
+
+
+
+
+

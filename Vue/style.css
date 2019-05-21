@@ -1,0 +1,563 @@
+h1{
+/*font-weight: bold ; 
+font-style:  italic ;*/
+font-family: 'Dancing Script';
+font-size: 60px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+}
+
+li.logoE
+{
+	display : inline;
+	color: #6091ba;
+	font-size: 30px;
+	font-weight: bold ;
+}
+.footer
+{
+
+background-color: #6091ba;
+width: 100%;
+height: 10%;
+font-size: 30px;
+text-align-last: center;
+padding: 15px;
+
+}
+
+video {
+
+	margin:  20px auto; 
+}
+
+.contact
+{
+font-size: 30px;
+color: black;
+}
+
+button
+{
+font-family: 'Dancing Script';
+margin: auto;
+font-size: 15px;
+width: 50%;
+height: 15%;
+}
+
+h2{
+font-family: 'Dancing Script';
+font-size: 40px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+font-weight:bold;
+ color: #2f506c;
+} 
+
+
+
+h3
+{
+font-family: 'Dancing Script';
+font-size: 30px;
+line-height: 60px;
+margin: auto;
+text-align-last: center;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+
+body{
+font-family:'Dancing Script','Times New Roman', Times, serif;
+/*border: 5px solid #2f506c ; */
+}
+
+
+table {
+ border-collapse:collapse;
+ width:90%;
+ margin: auto;
+ }
+ 
+th {
+ border:1px solid black;
+ width:10%;
+ font-size: 20px;
+ }
+
+td {
+border:1px solid black;
+width:10%;
+text-align:center;
+ }
+
+caption {
+ font-weight:bold;
+ color: #2f506c;
+ } 
+ 
+select 
+{
+	font-family: 'Dancing Script';
+	font-size: 15px;
+	display: inline;
+
+}
+
+.lien 
+{
+
+/*font-weight: bold ;*/
+text-decoration: none;
+/*color : white ;*/
+} 
+
+.menu-lien
+{
+text-decoration: none;
+}
+
+a.menu-lien:Hover
+{
+ text-decoration: underline;
+}
+
+li.ft{
+
+	display: inline;
+	padding: 8px;
+	text-align-last: center;
+}
+
+img.logo
+{   
+	margin: 0 auto; 
+	display : inline;
+	width:80%;
+	height:20%;
+	position: absolute;
+
+}
+
+/*
+li.menu{
+
+font-size: 30px;
+text-decoration: none;
+padding: 15px ;
+}
+*/
+
+li.deconnexion{
+float:right;
+display: inline;
+font-size: 30px;
+text-decoration: none;
+padding: 15px ;
+}
+
+
+
+
+.container
+{
+	display: inline-block;
+}
+
+#menu{
+display: inline-block;
+}
+
+#section_categorie
+{
+display: inline-block;
+	margin-left: 10%;
+	width:60%;
+}
+
+#div1
+{
+display: inline;
+position: relative;
+border: 5px solid #2f506c; 
+margin : 20px;
+width : 40%;
+height: 40%;
+font-size: 35px;
+}
+
+
+#div2
+{
+display: inline;
+border: 5px solid red ; 
+margin : 20px;
+width : 24%;
+height: 24%;
+font-size: 35px;
+}
+
+#div3
+{
+display: inline;
+border: 5px solid black ; 
+margin : 20px;
+width : 24%;
+height: 24%;
+font-size: 35px;
+}
+
+#div4
+{
+display: inline;
+border: 5px solid yellow ; 
+margin : 20px;
+width : 24%;
+height: 24%;
+font-size: 35px;
+}
+#div5
+{
+display: inline;
+border: 5px solid green ; 
+margin : 20px;
+width : 24%;
+height: 24%;
+font-size: 35px;
+}
+
+#div6
+{
+display: inline;
+border: 5px solid grey ; 
+margin : 20px;
+width : 24%;
+height: 24%;
+font-size: 35px;
+}
+
+li.libare
+{
+display: inline;
+
+}
+
+li.libare img:Hover
+{
+opacity:0.8;
+}
+
+#div
+{
+	margin: auto;
+	width: 100%;
+	padding: 15px;
+	margin: 20px;
+}
+
+#filtre
+{
+margin-left: 20%;
+}
+
+ul.divmenu 
+{
+
+font-family: 'Dancing Script';
+/*position: fixed;*/
+/*list-style-type: none ;*/
+background-color: #6091ba;
+width: 15%;
+font-size: 30px;
+display: inline-block;
+/*z-index: 4;*/
+}
+
+ 
+li:Hover ul.sous_menu 
+{
+visibility: visible; 
+text-decoration: none;
+padding: 10px;
+}
+
+
+a {
+ text-decoration:none;
+color: black;
+}
+
+textarea
+{
+	width: 45%;
+	height: 30%;
+	position: absolute;
+}
+#div-commentaire
+{
+	margin-left: 10%;
+}
+
+input {
+
+font-family: 'Dancing Script';
+
+}
+
+ 
+thead tr th 
+{
+font-weight: bold ; 
+font-style: italic ;
+color: #2f506c;
+}
+
+/* .divs{
+background-color: #6091ba;
+width: 35%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+
+} */
+
+div#global{
+	margin : 0 auto;
+	margin-left: 10%;
+	width: 100%;
+	display : inline-block;
+
+}
+
+div#novform
+{
+
+/*float: right;*/
+display : inline-block;
+width: 35%;
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+vertical-align: top;
+}
+
+div#compare
+{
+margin: 0 auto ;
+width: 80%;
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+/*vertical-align: top;*/
+}
+
+div#novtype
+{
+background-color: #6091ba;
+width: 45%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+margin: auto;
+
+}
+
+
+
+div#novform2
+{
+
+
+/*float: right;*/
+display : inline-block;
+width: 35%;
+background-color: #6091ba;
+
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+vertical-align: top;
+}
+
+div#novtype2
+{
+float:left ;
+display: inline-block;
+background-color: #6091ba;
+width: 35%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+vertical-align: top;
+}
+
+#div_modifier
+{
+background-color: #6091ba;
+width: 45%;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+display: none;
+margin: auto;
+width: 30%;
+}
+
+.div_connexion
+{
+
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+margin: auto;
+width: 30%;
+}
+
+.div_inscription
+{
+margin-top: 30px; 
+background-color: #6091ba;
+padding: 15px ;
+box-shadow: 1px 1px 12px #555;
+margin: auto;
+width: 35%;
+
+ }
+
+label{
+
+	display: block;
+	width: 100px;
+	float: left;
+	font-family: 'Dancing Script';
+	font-size: 15px;
+} 
+
+label.label_compare
+{
+
+display: inline;
+	width: 100px;
+	font-family: 'Dancing Script';
+	font-size: 15px;
+}
+
+
+@keyframes AutoSlide {
+	0% {
+		/*top: -852px; /*1ère image*/
+		top:-40%;
+	}
+	50% {
+	    /*top: -426px; /*2ème image*/
+	    top: -20%;
+	}
+	100% {
+		/*top : 0px; /*3ème image*/
+		top: 0%;
+	}
+}
+
+
+#slideshow {
+	/*border: 3px solid #333;*/
+	margin: auto;
+	position: relative;
+	width: 80%;
+	height: 20%;
+	/*height: 426px;*/
+	margin: auto;
+	overflow: hidden;
+} 
+
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	animation-name: AutoSlide;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#sContent:Hover {
+animation-name: AutoSlide;
+animation-play-state: paused;
+	
+}
+
+
+
+
+.slider{
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.s1,.s2,.s3 {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+} 
+
+.s1 {
+  background: url('Images/diapo1.png')no-repeat center;
+  background-size: cover;
+  animation:anim1 3s infinite;
+}
+.s2 {
+  background: url('Images/diapo2.png')no-repeat center;
+  background-size: cover;
+  animation:anim2 3s infinite;
+}
+
+.s3 {
+  background: url('Images/diapo3.jpg')no-repeat center;
+  background-size: cover;
+  animation:anim3 3s infinite;
+} 
+
+@keyframes anim1
+{
+  0%   {opacity:1}
+  33% { opacity: 0}
+  66% { opacity: 0}
+  100% { opacity: 1}
+}
+
+@keyframes anim2
+{
+  0%   {opacity:0}
+  33% { opacity: 1}
+  66% { opacity: 0 }
+  100% { opacity: 0}
+}
+
+@keyframes anim3
+{
+  0%   {opacity:0}
+  33% { opacity: 0}
+  66% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+
+
+
+
+
+
